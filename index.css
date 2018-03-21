@@ -1,0 +1,116 @@
+body {
+    background: url(img/main-bg.jpeg);
+    background-size: cover;
+}
+h1 {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+}
+.nav-text {
+    padding: 0 11% 0 11%;
+}
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+}
+.middle-big {
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+.middle-small {
+    font-size: 25px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 180px;
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 12pc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: darkgrey;
+}
+.media-nav {
+    display: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+.nav {
+    display: none;
+}
+.middle {
+    padding-top: 180px; 
+}
+.media-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social-wrap {
+    display: initial;
+    width: 50vw;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.social-links {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+}
+img {
+    width: 35px;
+    height: auto;
+    margin: auto;
+}
+.circle-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.circle-nav{
+    width: 60px;
+    height: 60px;
+    border-radius: 12pc;
+    border: solid white 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.line-wrapper {
+    width: 40px;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.line {
+    background-color: white;
+    height: 2px;
+    width: 40px;
+    display: block;
+}
+
+}
