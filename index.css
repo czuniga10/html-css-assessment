@@ -17,7 +17,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 .middle-big {
     font-size: 80px;
@@ -55,7 +55,7 @@ h1 {
     display: none;
 }
 .middle {
-    padding-top: 180px; 
+    padding-top: 130px; 
 }
 .media-nav {
     display: flex;
